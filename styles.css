@@ -1,0 +1,69 @@
+body {
+  height: 900px;
+  width: 850px;
+  font-family: 'Heebo', sans-serif;
+}
+
+header {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/15/09/37/galaxy-11139_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  font-size: 80px;
+}
+
+img {
+  max-width: 100%;
+  height: 450px;
+}
+
+main {
+  margin-top: 28px;
+  height: 324px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #E6E6E6;
+}
+
+section {
+  width: 270px;
+  /* border: 1px solid red; */
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+form {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+}
+
+.button {
+  background-color: rgb(179, 179, 179);
+  width: 30%;
+  height: 25px;
+  margin-top: 20px;
+}
+
+#message {
+  height: 100px;
+}
